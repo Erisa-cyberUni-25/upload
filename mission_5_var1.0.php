@@ -580,7 +580,6 @@
 </div>
 <div class="log">
 <?php
-//3-2　テキストファイルの内容を（デリミタで分割した上で）フォームの下に表示させる
         echo "<h2> 書き込み記録 </h2>";
         if(tableCheck2($tbname)=="OK"){//ファイルを確認
             $count = postView($tbname);
